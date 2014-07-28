@@ -1,0 +1,48 @@
+@media (min-width: 1200px){
+	.container{
+		width:980px;
+	}
+}
+
+.navbar-default{
+	background-color: #fff;
+	border:none;
+}
+.navbar-brand{
+	margin: 0 0 20px 0;
+	height: 60px;
+}
+.navbar-nav{
+	font-size: 16px;
+	margin-top: 20px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #000;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #0072ce;
+}
+.navbar-default .navbar-nav .active>a{
+	color: #fff;
+	background-color: #0072ce;
+}
+.navbar-default .navbar-nav .active>a:hover{
+	color: #000;
+	background-color: #0072ce;
+}
+
+
+.bottom{
+	margin-top: 60px;
+	min-height: 120px;
+}
+.bottom .sitemap{
+	height: 100px;
+	border-right: 1px solid #858585;
+}
+.bottom .address{
+	height: 100px;
+}
+.bottom .address h4{
+	margin:0;
+}
