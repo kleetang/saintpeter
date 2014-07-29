@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="./img/icon.png">
 
-    <title>Saint Peter's Acadmy</title>
+    <title>About Saint Peter's Academy</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -34,17 +34,24 @@
 
   <body>
     <div class="container">
-
+      
       <?php include 'nav.php';?>
 
-      <div class="jumbotron">
-        <h2>Saint Peter's Academy</h2>
-        <p class="lead">Saint Peter's Academy is a college-level preparatory school which was registered<br> in New York City.</p>
+      <ol class="breadcrumb">
+        <li><a href="index.php">Home</a></li>
+        <li class="active">About Us</li>
+      </ol>
+
+      <div class="page-header">
+        <h2>About Us</h2>
       </div>
 
-      <div class="row marketing">
-        <div class="col-lg-12">
-          <p><strong>Saint Peter's Academy</strong> mainly provides educational services, including <strong>Test Assessing Secondary Completion (TASC)</strong> diploma courses, college-level <strong>Advanced Placement (AP)</strong> curriculum, and <strong>1+3 University Pathway Program (UPP).</strong> It also provides <strong>SAT</strong> and <strong>ESL</strong> courses.</p>
+      <div class="mainwrapper">
+        <div class="row">
+          <div class="col-lg-12">
+            <p><strong>Columbia International Academy</strong> is a college-level preparatory school which was registered in 2009, New York City. It mainly provides educational services, including <strong>Test Assessing Secondary Completion (TASC)</strong> diploma courses, college-level <strong>Advanced Placement (AP)</strong> curriculum, and <strong>1+3 University Pathway Program (UPP).</strong> It also provides <strong>SAT</strong> and <strong>ESL</strong> courses.
+            </p>
+          </div>
         </div>
       </div>
 

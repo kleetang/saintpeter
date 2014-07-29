@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="./img/icon.png">
 
-    <title>Saint Peter's Acadmy</title>
+    <title>TASC</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -34,17 +34,26 @@
 
   <body>
     <div class="container">
-
+      
       <?php include 'nav.php';?>
 
-      <div class="jumbotron">
-        <h2>Saint Peter's Academy</h2>
-        <p class="lead">Saint Peter's Academy is a college-level preparatory school which was registered<br> in New York City.</p>
+      <ol class="breadcrumb">
+        <li><a href="index.php">Home</a></li>
+        <li class="active">Course Guide</li>
+      </ol>
+
+      <div class="page-header">
+        <h2>Course Guide</h2>
       </div>
 
-      <div class="row marketing">
-        <div class="col-lg-12">
-          <p><strong>Saint Peter's Academy</strong> mainly provides educational services, including <strong>Test Assessing Secondary Completion (TASC)</strong> diploma courses, college-level <strong>Advanced Placement (AP)</strong> curriculum, and <strong>1+3 University Pathway Program (UPP).</strong> It also provides <strong>SAT</strong> and <strong>ESL</strong> courses.</p>
+      <div class="mainwrapper">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Columbia International Academy offers a variety of high school level courses in math, science, social studies and language arts. Student can choose personalized path towards graduation.
+            </p><br>
+            <p>Our curriculum will help students prepare themselves well for higher education in U.S. Students can develop their study skills that are critical to the academic success of the future by completing intensive courses. Please click <a href="file/Graduation Planning Guide 2014-2015.pdf" target="_blank"> CIA Graduation Planning  and Course Guide</a> to download the catalogue.
+            </p>
+          </div>
         </div>
       </div>
 

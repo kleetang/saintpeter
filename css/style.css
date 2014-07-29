@@ -19,29 +19,30 @@
 .navbar-default .navbar-nav>li>a{
 	color: #000;
 }
-.navbar-default .navbar-nav>li>a:hover{
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 	color: #0072ce;
 }
-.navbar-default .navbar-nav .active>a{
-	color: #fff;
-	background-color: #0072ce;
-}
-.navbar-default .navbar-nav .active>a:hover{
-	color: #000;
-	background-color: #0072ce;
+
+
+.mainwrapper{
+	min-height: 400px;
 }
 
+#map_canvas{
+	height: 400px;
+}
 
 .bottom{
 	margin-top: 60px;
-	min-height: 120px;
+	min-height: 100px;
 }
 .bottom .sitemap{
-	height: 100px;
+	font-size: 11px;
+	height: 80px;
 	border-right: 1px solid #858585;
 }
 .bottom .address{
-	height: 100px;
+	height: 80px;
 }
 .bottom .address h4{
 	margin:0;

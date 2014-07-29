@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="./img/icon.png">
 
-    <title>Saint Peter's Acadmy</title>
+    <title>TASC</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -34,8 +34,16 @@
 
   <body>
     <div class="container">
-
+      
       <?php include 'nav.php';?>
+      <ol class="breadcrumb">
+        <li><a href="index.php">Home</a></li>
+        <li class="active">Programs</li>
+      </ol>
+
+      <div class="page-header">
+        <h2>Programs</h2>
+      </div>
 
       <div class="jumbotron">
         <h2>Saint Peter's Academy</h2>
